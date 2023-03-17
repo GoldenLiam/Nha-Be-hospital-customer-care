@@ -9,4 +9,9 @@ Router.get('/template', (req, res) => {
     return res.render("admin/template");
 })
 
+
+Router.get('/message', (req, res) => {
+    return res.render("admin/message");
+})
+
 module.exports = Router;

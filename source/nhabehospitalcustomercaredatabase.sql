@@ -20,6 +20,7 @@ CREATE TABLE `Account`(
     `gender` VARCHAR(10) NOT NULL,
     `birthday` DATE NOT NULL,
     `address` VARCHAR(512) DEFAULT NULL,
+    `lastestActive` DATETIME DEFAULT NOW(),  
     `avatar` VARCHAR(512) NOT NULL DEFAULT 'avatar-default.png',
     `joinDate` DATETIME DEFAULT NOW()
 );
